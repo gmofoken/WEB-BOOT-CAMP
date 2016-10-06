@@ -1,0 +1,180 @@
+body{
+    background-color: rgb(209, 209, 209);
+    margin:0 0 0 0;
+}
+#body_con{
+    margin: auto;
+    background-color: rgb(195, 195, 195);
+    width:85%;
+    height:975px;
+    opacity: 0.9;
+    border-radius: 10px;
+    text-align: center;
+    position:relative;
+}
+#back{
+    position: fixed;
+    width:100%;
+    height:100%;
+    z-index: -10;
+}
+#top_bar{
+    width:100%;
+    height: 200px;
+}
+#hed1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150px;
+}
+#hed2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+
+}
+#comp{
+    width: 100%;
+    height: 50px;
+    background-color: #1d689b;
+    text-align: right;
+}
+#menu_holder{
+    margin:0;
+    padding:0;
+    background-color: #000000;
+    z-index: 10;
+      
+}
+#menu_holder ul{
+    margin:0;
+    padding:0;
+    line-height:40px;
+    z-index: 10;
+}
+#menu_holder li{
+    margin:0;
+    padding:0;
+    list-style: none;
+    float: left;
+    position: relative;
+    text-align:center;
+    background-color:#1d689b;
+    top: 3px;
+    z-index: 10;
+}
+#menu_holder ul li a{
+    text-align: center;
+    height:40px;
+    width: 160px;
+    display:block;
+    text-decoration: none;
+    color: #000000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    z-index: 10;
+}
+#menu_holder li:hover {
+    background-color: #115e67;
+    z-index: 10;
+}
+#menu_holder a:hover {
+    background-color: #115e67;
+    border-radius: 5px;
+}
+#menu_holder ul ul{
+    position:absolute;
+    visibility:hidden;
+    padding:0;
+    top: 41px;
+     background-color: #909090;
+}    
+#menu_holder ul li:hover ul{
+    visibility:visible;
+    border-radius: 5px;
+}
+#main_content-left{
+    height: 700px;
+    width: 50%;
+    display:inline-block;
+    text-align: center;
+    float: left;
+    margin-left: 5px;
+}
+.main_content-right{
+    height: 700px;
+    width: 49%;
+    display:inline-block;
+    text-align: center;
+    float: right;
+    margin-right: 5px;
+}
+#head_text{
+    text-align: left;
+    line-height: 280px;
+    font-family: Fantasy;
+    margin:0 0 0 10px;
+}
+#form-d{
+    text-align: right;
+}
+.mySlides {
+    position: center;
+    width: 100%;
+    height: 100%;
+    float: center;
+    opacity: 1.9;
+}
+#basket{
+    width:100px;
+    height:40px;
+    float:right;
+    margin:5px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    background-color: #115e67;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#basket a{
+    text-decoration: none;
+    color: black;
+}
+basket:hover a{
+    text-decoration: underline;
+}
+#scroll_box{
+    height: 99%;
+    width: 99%;
+    overflow:scroll;
+    margin: auto;
+    background-color: rgb(210, 210, 210);
+    border: inset;
+}
+#item{
+    width: 85%;
+    margin: auto;
+    height: 150px;
+    background-color: #1d689b;
+    opacity: 0.9;
+    border-radius: 5px;
+    z-index: 0;
+}
+.regform{
+    width: 300px;
+    height: 30px;
+    border: 2px solid rgb(195, 195, 195);
+    background-color: rgb(180, 180, 180);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+#subbutton{
+    width:80px;
+    height:50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+.cont_pic{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    border: 1px dashed black;
+}

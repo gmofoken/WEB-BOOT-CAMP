@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    .item{
+    width: 85%;
+    margin: auto;
+    height: 150px;
+    background-color: #ff4d4d;
+    opacity: 0.9;
+    border-radius: 5px;
+    z-index: 0;
+}
+</style>
+<link type="text/css" rel="stylesheet" href="Theme.css" />
+<head>
+    <title>working title</title>
+</head>
+<body>
+        <img id="back" src="http://az616578.vo.msecnd.net/files/2016/07/29/636053477941442174-34728437_o-ROCK-CONCERT-facebook.jpg" />
+        <div ID ="body_con">
+            <div id="top_bar">
+            <h1 id="head_text"><span id="hed1">Alternate</span><span id="hed2">.audio</span></h1>
+            </div>
+            <div id="comp">
+        <div id="menu_holder">
+                        <ul>
+                <li><a href="#">For The Fans</a>
+                    <ul>
+                        <li><a href="http://localhost:8080/rush00/index.php" >Home</a></li>
+                        <li><a href="http://localhost:8080/rush00/New_arrivals.html">Instuments</a></li>
+                        <li><a href="http://localhost:8080/rush00/alt_mix.html" >Accessories</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li><a href="#">Members</a>
+                    <ul>
+                        <li><a href="http://localhost:8080/rush00/Register.html">Members Register</a></li>
+                        <li><a href="http://localhost:8080/rush00/Pass_access.html">Exclusive content</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div id = "basket">
+            <a href="#">Checkout</a>
+        </div>
+        <div id = "basket">
+            <a href="http://localhost:8080/rush00/Basket.php">view basket</a>
+        </div>
+        </div>
+        <div id = "bod_con">
+            <div id="form-d">
+            <form name="reg" methdod="POST">
+            <input class="in" type="submit" />
+            <input class="in" id="log" type = "text" value="Log In..."/>
+            </form>
+        </div>
+        <div id="main_content-left">
+            <div id="scroll_box">
+                <br />
+                <br />
+                <br />
+                <h3 style="font-family:Impact">Join Alternative.audio to gain access to exclusive content...<h3><br />
+                <form name="reg" method="post" action="./Alt-audio/reg.php">
+                    User Name: <br /><input class="regform" type = "text" name="register" value="">
+                    <br />
+                    User Password: <br /><input class="regform" type = "password" name="password" value="">
+                    <br />
+                    Email: <br /><input class="regform" type = "text" name="email" value="">
+                    <br />
+                    <input id="subbutton" type = "submit" name ="submit" value="Join!">
+                </form>
+                <br />
+                <h3 style="font-family:Impact">Need a new password? Enter it here...<h3><br />
+                <form name="edit" method="POST" action="./Alt-audio/edit2.php">
+                    User Name: <br /><input class="regform" type = "text" name="register" value="">
+                    <br />
+                    Old Password: <br /><input class="regform" type = "password" name="old-password" value="">
+                    <br />
+                    New Password: <br /><input class="regform" type = "password" name="new-password" value="">
+                    <br />
+                    <input id="subbutton" type = "submit" name ="submit" value="Submit">
+                    <br />
+                    <h3 style="font-family:Impact">Admin Login<h3><br />
+                <form name="reg" method="POST" action="reg.php">
+                    User Name: <br /><input class="regform" type = "text" name="register" value="Your User">
+                    <br />
+                    Old Password: <br /><input class="regform" type = "password" name="old-password" value="Old-password">
+                    <br />
+                    New Password: <br /><input class="regform" type = "password" name="new-password" value="New-password">
+                    <br />
+                    Email: <br /><input class="regform" type = "text" name="email" value="email">
+                    <br />
+                    <input id="subbutton" type = "submit" name ="submit" value="Submit">
+                </form>
+</div>
+            </div>
+        </div>
+        <div class="main_content-right">
+            <img class="mySlides" src="http://www.dunfermlinedramatic.co.uk/wp/wp-content/uploads/2009/12/HF_WeWantYou-276x300.png">
+            <script>
+        var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000); // Change image every 4 seconds
+        }
+    </script>
+        </div>
+</div>
+        </div>
+</body>
+</html>

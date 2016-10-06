@@ -1,0 +1,17 @@
+[master (root-commit) 7016205] -
+ Committer: Gomotso MOFOKENG <gmofoken@e5r9p1.jnb.42.fr>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 83 insertions(+)
+ create mode 100755 ex00/another_world.php
+ create mode 100755 ex01/one_more_time.php
+ create mode 100755 ex02/magnifying_glass.php

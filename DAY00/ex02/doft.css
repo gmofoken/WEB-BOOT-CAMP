@@ -1,0 +1,101 @@
+.CONTAINER  {BACKGROUND-COLOR:505050;
+             HEIGHT:900; WIDTH:90%;
+             POSITION:RELATIVE;
+             MARGIN:3% 0% 0% 5%;
+            }
+
+.HEADER 	{WIDTH:75%; HEIGHT:15%;
+             BACKGROUND-COLOR:909090;
+             MARGIN:0% 0% 0% 12%;
+             BORDER-RADIUS:11PX;
+             BOX-SHADOW:10px 10px 5px #000000;
+            }    
+
+.NAV		{WIDTH:8%; HEIGHT:400PX; 
+             BACKGROUND-COLOR:909090;
+		     MARGIN:2% 1% 0% 14%; FLOAT:LEFT;
+             ALIGN-CONTENT:CENTER; 
+             BORDER-RADIUS:11PX;
+             POSITION:RELATIVE;
+             BOX-SHADOW:10px 10px 5px #000000;
+            }
+
+.SIDEBAR	{WIDTH:8%; HEIGHT:400PX; FLOAT:LEFT;
+             BACKGROUND-COLOR:909090; 
+             MARGIN:2% 0% 0% 0%; 
+             BORDER-RADIUS:11PX;
+             BOX-SHADOW:10px 10px 5px #000000;
+            }
+
+.ARTICLE	{WIDTH:100%; HEIGHT:460PX; 
+             BACKGROUND-COLOR:909090;
+             FLOAT:LEFT;
+             MARGIN:0% 1% 0% 0%;
+             BORDER-RADIUS:11PX;
+             BOX-SHADOW:10px 10px 5px #000000;
+            }
+
+.HEAD_SECT  {
+             FLOAT:LEFT;
+             MARGIN:0% 1% 0% 70%;
+             DISPLAY:INLINE-BLOCK;
+            }
+
+.DFT		{WIDTH:90%; HEIGHT:10%;}
+
+.MAIN       {WIDTH:53%;HEIGHT:460PX;
+             MARGIN:2% 1% 0% 0%;
+             FLOAT:LEFT;
+            }
+
+.BOX        {WIDTH:70%; HEIGHT:150;
+             POSITION:RELATIVE;
+             MARGIN:-5% 1% 0% -25%;
+             BACKGROUND-COLOR:88FF89;
+             BORDER-RADIUS:11PX;
+
+            }
+
+.FLOAT_TXT  {POSITION:RELATIVE;
+             DISPLAY: INLINE;
+             FONT-FAMILY: SANS-SERIF;
+             FONT-SIZE: 16PX;
+             LETTER-SPACING: 1PX;
+             TEXT-SHADOW: 7PX 4PX 4PX RGBA(255,0,0,0.6);
+            }
+
+#HSIMG      {WIDTH:30%; HEIGHT:120%;
+             MARGIN:0% 5% 0% 25%;
+             FLOAT:LEFT;
+            }
+#RLD        {FLOAT:LEFT;
+             WIDTH:2%;
+             MARGIN:0% 0% 0% 4%;
+            }
+
+#CLS        {MARGIN:9% 0% 0% 4%;
+             POSITION:RELATIVE;
+            }
+
+#HIMG       {WIDTH:32.5%; HEIGHT:100%;
+             BORDER-RADIUS:23PX;
+             FLOAT:LEFT;
+            }
+
+#AIMG       {WIDTH:97%; HEIGHT:97%;
+             MARGIN:1% 1% 1% 1%
+            }
+
+#NIMG		{WIDTH:60%; HEIGHT:18%; 
+             BORDER-RADIUS:23PX;
+             POSITION:RELATIVE;
+             MARGIN:2% 0% 2% 20%;
+            }
+
+#SIMG       {
+             WIDTH:70%; HEIGHT:20%;
+            
+             MARGIN:3% 0% 3% 15%;
+            }
+
+BODY        {BACKGROUND-COLOR:505050}

@@ -1,0 +1,72 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <form name="calcform" action="" method="GET">
+            <input type="text" name="left" value="0";>
+            <select name="sign">
+                <option value="add">+</option>
+                <option value="sub">-</option>
+                <option value="mult">*</option>
+                <option value="div">/</option>
+                <option value="mod">%</option>
+            </select>
+            <input type="text" name="right" value="0">
+            <input type="submit" value="Try me!" onClick="calc(this.form)">
+        </form>
+        <script>
+            timer = setInterval(popup, 30000);
+            function popup()
+            {
+	            alert("Please use me!!!");
+            }
+            function calc(form){
+                var val1 = parseInt(form.left.value);
+                var val2 = parseInt(form.right.value);
+                var sig = form.sign.value;
+                var over = "It's over 9000!";
+                var output;
+                if (val1 >= 0 && val2 >= 0){
+                    if (sig == "add")
+                        output = val1 + val2;
+                    else if (sig == "sub")
+                        output = val1 - val2;
+                    else if (sig == "mult")
+                        output = val1 * val2;
+                    else if (sig == "div"){
+                        if (val1 === 0){
+                            console.log(over);
+                            alert(over);
+                            return;
+                        }
+                        else if (val2 === 0){
+                            console.log(over);
+                            alert(over);
+                            return;
+                        }
+                        else
+                            output = val1 / val2;
+                    }
+                    else if (sig == "mod"){
+                        if (val1 === 0){
+                            console.log(over);
+                            alert(over);
+                            return;
+                        }
+                        else if (val2 === 0){
+                            console.log(over);
+                            alert(over);
+                            return;
+                        }
+                        else
+                            output = val1 % val2;
+                    }
+                    console.log(output);
+                    alert(output);
+                }
+                else
+                    alert("ERROR :(");
+            }            
+        </script>
+    </body>
+</html>

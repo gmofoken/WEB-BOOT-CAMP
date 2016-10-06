@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Calc</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    </head>
+    <body>
+            <input type="text" id="left" name="left" value="0";>
+            <select name="sign" id="sign">
+                <option value="add">+</option>
+                <option value="sub">-</option>
+                <option value="mult">*</option>
+                <option value="div">/</option>
+                <option value="mod">%</option>
+            </select>
+            <input type="text" id="right" name="right" value="0">
+            <input type="submit" id="btn" value="Try me!">
+        <script>
+            $(document).ready(function (){
+            timer = setInterval(popup, 30000);
+            function popup()
+            {
+	            alert("Please use me!!!");
+            }
+            $('#btn').on('click', function() {
+                var val1 = parseInt($('#left').val());
+                var val2 = parseInt($('#right').val());
+                var sign = $('#sign').val();
+                var outp;
+                if (val1 < 0 || val2 < 0)
+                    outp = "Error :(";
+                else if ((val1 == 0 || val2 == 0) && (sign === "div" || sign === "mod"))
+                    outp = "It's over 9000!";
+                else
+                {
+                    if (sign == "add")
+                        outp = val1 + val2;
+                    else if (sign == "sub")
+                        outp = val1 - val2;
+                    else if (sign == "mult")
+                        outp = val1 * val2;
+                    else if (sign == "div")
+                        outp = val1 / val2;
+                    else if (sign == "mod")
+                        outp = val1 % val2;
+                }
+                console.log(outp);
+                alert(outp);
+            });
+        });    
+        </script>
+    </body>
+</html>
